@@ -89,8 +89,8 @@ Lab: Lab1
 
 Теперь пингуем виртуальную машину по заданному IP адресу. Ping идет успешно, а значит все настройки выполнены правильно.
 
-<img width="415" alt="image" src="https://user-images.githubusercontent.com/53398280/199184182-3e74b9eb-92c1-44f5-973b-7ff588bf1b6e.png">
 
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/53398280/199198070-f3c1b3f0-b4a3-4a18-963d-b53a7a5d5c5c.png">
 
 
 
