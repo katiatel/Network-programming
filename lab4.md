@@ -153,9 +153,12 @@ Date finished:
 
 
   6.Обновлен депарсер.
+  
 ![image](https://user-images.githubusercontent.com/53398280/207099615-4f7e0bbd-dc88-4707-b5ca-b6fc29fc6c9f.png)
 
-  7.Таблица myTunnel_exact еще не заполнена. Заполнить таблицу на основе схеме связи, редактировав файл s1-runtime.json, s2-runtime.json, s3-runtime.json
+  7.Таблица myTunnel_exact еще не заполнена. Заполнить таблицу на основе схеме связи, редактировав файл s1-runtime.json, s2-runtime.json, 
+  s3-runtime.json
+  
 ![image](https://user-images.githubusercontent.com/53398280/207099673-c0ad0263-de6d-49b5-a7f6-9a8cacc3d1e2.png)
 
 
@@ -163,20 +166,24 @@ Date finished:
 1.Запустить Mininet.
 
 2.Открыть 2 терминала для хостов h1 и h2.
+
 ![image](https://user-images.githubusercontent.com/53398280/207099772-7bcd8a63-9d91-46dd-9fc3-02e00e5c46b8.png)
 
 
 3.Запустить сервер на хосте h2.
+
 ![image](https://user-images.githubusercontent.com/53398280/207099828-0ae7a246-44ce-4a6b-8d7c-c92cb587268c.png)
 
 
 4.На хосте h1 отправлять хосту h2 пакет без туннелирования, указав ip адрес хоста h2.
+
 ![image](https://user-images.githubusercontent.com/53398280/207099879-ce8b5d9d-f0f8-4538-8210-87cb8378800a.png)
 
 При этом пакет состоит из заголовка Ethernet, заголовка IP, заголовка TCP и сообщения "hello h2 no tunneling".
 
 5.Теперь на хосте h1 отправлять хосту h2 туннелированный пакет. В этом случае IP адрес не важен, важен только id назначения. 
 Коммутатор больше не использует заголовок IP для маршрутизации, когда заголовок MyTunnel находится в пакете.
+
 ![image](https://user-images.githubusercontent.com/53398280/207099983-a3838a6f-5eae-4103-9dcc-db3dcf7b6a0f.png)
 
 Теперь на хосте h1 отправлять хосту h2 туннелированный пакет. В этом случае IP адрес не важен, важен только id назначения. Коммутатор больше не использует заголовок IP для маршрутизации, когда заголовок MyTunnel находится в пакете.
