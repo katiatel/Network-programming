@@ -12,10 +12,6 @@ Author: Ekaterina Telegina
 
 Lab: Lab 4
 
-Date created:
-
-Date finished:
-
 ЦЕЛЬ РАБОТЫ
 
 Изучить синтаксис языка программирования P4 и выполнить 2 задания обучающих задания от Open network foundation для ознакомления на практике с P4.
