@@ -12,9 +12,6 @@ Author: Ekaterina Telegina
 
 Lab: Lab2
 
-Date created:
-
-Date finished:
 
 
 ЦЕЛЬ РАБОТЫ
