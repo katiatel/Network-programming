@@ -12,9 +12,7 @@ Author: Ekaterina Telegina
 
 Lab: Lab3
 
-Date created:
 
-Date finished:
 
 ЦЕЛЬ РАБОТЫ
 
